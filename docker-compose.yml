@@ -8,6 +8,7 @@ services:
       - PORT=${PORT:-3264}
       - HOST=0.0.0.0
       - SKIP_ACCOUNT_MENU=true
+      - DEFAULT_MODEL=qwen3.5-plus
     ports:
       - "${PORT:-3264}:3264"
     volumes:
